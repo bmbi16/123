@@ -1,0 +1,38 @@
+/* Basic styling for the checkout page */
+.dz-shipping-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.dz-shipping-section h3 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.shipping-type label {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.shipping-type input[type="radio"]:checked + label {
+    border-color: #00a0d2;
+    background: #f0f8ff;
+}
+
+/* RTL support for Arabic */
+.rtl .dz-shipping-section h3 {
+    text-align: right;
+}
+
+.rtl .shipping-type label {
+    text-align: right;
+}
